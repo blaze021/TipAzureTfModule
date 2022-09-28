@@ -19,9 +19,9 @@ resource "azurerm_storage_container" "container" {
 }
 
 resource "azurerm_storage_blob" "tip_blob_store" {
-  name = "tip-cloud-ag-blob-store"
+  name = "index.html"
   storage_account_name = module.storage_account.storage_account_name
   storage_container_name = azurerm_storage_container.container.name
   type = "Block"
-  source = "output.tf"
+  source = "test.html"
 }
