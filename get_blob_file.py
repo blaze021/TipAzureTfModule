@@ -14,7 +14,7 @@ blob_client_instance = blob_service_client_instance.get_blob_client(
 
 blob_data = blob_client_instance.download_blob()
 
-with open("../file/index.html", "wb") as f:
+with open("index.html", "wb") as f:
    blob_data.readinto(f)
 # data = blob_data.readall()
 # print(data)
