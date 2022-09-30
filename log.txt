@@ -316,19 +316,20 @@ Terraform will perform the following actions:
   [32m+[0m [0m[1m[0mstorage_container_name[0m[0m     = "demo"
   [32m+[0m [0m[1m[0mstorage_primary_access_key[0m[0m = (sensitive value)
 [0m[1mazurerm_resource_group.tip_cloud_agnostic_rg: Creating...[0m[0m
-[0m[1mazurerm_resource_group.tip_cloud_agnostic_rg: Creation complete after 0s [id=/subscriptions/963f627f-12a9-41e2-aba0-2f1968e6c1bf/resourceGroups/tipcloudagnosticrg][0m
-[0m[1mazurerm_private_dns_zone.tipcloudagdnszone: Creating...[0m[0m
+[0m[1mazurerm_resource_group.tip_cloud_agnostic_rg: Creation complete after 3s [id=/subscriptions/963f627f-12a9-41e2-aba0-2f1968e6c1bf/resourceGroups/tipcloudagnosticrg][0m
 [0m[1mazurerm_virtual_network.tip_vnet: Creating...[0m[0m
+[0m[1mazurerm_private_dns_zone.tipcloudagdnszone: Creating...[0m[0m
 [0m[1mmodule.storage_account.azurerm_storage_account.tipcloudagstorage: Creating...[0m[0m
 [0m[1mazurerm_virtual_network.tip_vnet: Creation complete after 4s [id=/subscriptions/963f627f-12a9-41e2-aba0-2f1968e6c1bf/resourceGroups/tipcloudagnosticrg/providers/Microsoft.Network/virtualNetworks/tip-vnet][0m
-[0m[1mazurerm_subnet.tip_public_subnet: Creating...[0m[0m
 [0m[1mazurerm_subnet.tip_endpoint_subnet: Creating...[0m[0m
-[0m[1mazurerm_subnet.tip_public_subnet: Creation complete after 4s [id=/subscriptions/963f627f-12a9-41e2-aba0-2f1968e6c1bf/resourceGroups/tipcloudagnosticrg/providers/Microsoft.Network/virtualNetworks/tip-vnet/subnets/tip_public_subnet][0m
+[0m[1mazurerm_subnet.tip_public_subnet: Creating...[0m[0m
+[0m[1mazurerm_subnet.tip_endpoint_subnet: Creation complete after 3s [id=/subscriptions/963f627f-12a9-41e2-aba0-2f1968e6c1bf/resourceGroups/tipcloudagnosticrg/providers/Microsoft.Network/virtualNetworks/tip-vnet/subnets/tip_endpoint_subnet][0m
 [0m[1mazurerm_private_dns_zone.tipcloudagdnszone: Still creating... [10s elapsed][0m[0m
 [0m[1mmodule.storage_account.azurerm_storage_account.tipcloudagstorage: Still creating... [10s elapsed][0m[0m
-[0m[1mazurerm_subnet.tip_endpoint_subnet: Creation complete after 7s [id=/subscriptions/963f627f-12a9-41e2-aba0-2f1968e6c1bf/resourceGroups/tipcloudagnosticrg/providers/Microsoft.Network/virtualNetworks/tip-vnet/subnets/tip_endpoint_subnet][0m
-[0m[1mmodule.storage_account.azurerm_storage_account.tipcloudagstorage: Creation complete after 20s [id=/subscriptions/963f627f-12a9-41e2-aba0-2f1968e6c1bf/resourceGroups/tipcloudagnosticrg/providers/Microsoft.Storage/storageAccounts/demotipstorage9553][0m
+[0m[1mazurerm_subnet.tip_public_subnet: Creation complete after 7s [id=/subscriptions/963f627f-12a9-41e2-aba0-2f1968e6c1bf/resourceGroups/tipcloudagnosticrg/providers/Microsoft.Network/virtualNetworks/tip-vnet/subnets/tip_public_subnet][0m
 [0m[1mazurerm_private_dns_zone.tipcloudagdnszone: Still creating... [20s elapsed][0m[0m
+[0m[1mmodule.storage_account.azurerm_storage_account.tipcloudagstorage: Still creating... [20s elapsed][0m[0m
+[0m[1mmodule.storage_account.azurerm_storage_account.tipcloudagstorage: Creation complete after 20s [id=/subscriptions/963f627f-12a9-41e2-aba0-2f1968e6c1bf/resourceGroups/tipcloudagnosticrg/providers/Microsoft.Storage/storageAccounts/demotipstorage9553][0m
 [0m[1mazurerm_storage_container.container: Creating...[0m[0m
 [0m[1mazurerm_storage_container.container: Creation complete after 0s [id=https://demotipstorage9553.blob.core.windows.net/demo][0m
 [0m[1mazurerm_storage_blob.tip_blob_store: Creating...[0m[0m
