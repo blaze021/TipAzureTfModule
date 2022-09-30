@@ -1,6 +1,6 @@
 [0m[1mazurerm_resource_group.tip_cloud_agnostic_rg: Refreshing state... [id=/subscriptions/963f627f-12a9-41e2-aba0-2f1968e6c1bf/resourceGroups/tipcloudagnosticrg][0m
-[0m[1mazurerm_virtual_network.tip_vnet: Refreshing state... [id=/subscriptions/963f627f-12a9-41e2-aba0-2f1968e6c1bf/resourceGroups/tipcloudagnosticrg/providers/Microsoft.Network/virtualNetworks/tip-vnet][0m
 [0m[1mazurerm_private_dns_zone.tipcloudagdnszone: Refreshing state... [id=/subscriptions/963f627f-12a9-41e2-aba0-2f1968e6c1bf/resourceGroups/tipcloudagnosticrg/providers/Microsoft.Network/privateDnsZones/privatelink.blob.core.windows.net][0m
+[0m[1mazurerm_virtual_network.tip_vnet: Refreshing state... [id=/subscriptions/963f627f-12a9-41e2-aba0-2f1968e6c1bf/resourceGroups/tipcloudagnosticrg/providers/Microsoft.Network/virtualNetworks/tip-vnet][0m
 [0m[1mmodule.storage_account.azurerm_storage_account.tipcloudagstorage: Refreshing state... [id=/subscriptions/963f627f-12a9-41e2-aba0-2f1968e6c1bf/resourceGroups/tipcloudagnosticrg/providers/Microsoft.Storage/storageAccounts/demotipstorage9553][0m
 [0m[1mazurerm_subnet.tip_endpoint_subnet: Refreshing state... [id=/subscriptions/963f627f-12a9-41e2-aba0-2f1968e6c1bf/resourceGroups/tipcloudagnosticrg/providers/Microsoft.Network/virtualNetworks/tip-vnet/subnets/tip_endpoint_subnet][0m
 [0m[1mazurerm_subnet.tip_public_subnet: Refreshing state... [id=/subscriptions/963f627f-12a9-41e2-aba0-2f1968e6c1bf/resourceGroups/tipcloudagnosticrg/providers/Microsoft.Network/virtualNetworks/tip-vnet/subnets/tip_public_subnet][0m
@@ -129,7 +129,7 @@ Terraform will perform the following actions:
         ] [90m->[0m [0m[90mnull[0m[0m
       [31m-[0m [0m[1m[0mdns_servers[0m[0m             = [] [90m->[0m [0m[90mnull[0m[0m
       [31m-[0m [0m[1m[0mflow_timeout_in_minutes[0m[0m = 0 [90m->[0m [0m[90mnull[0m[0m
-      [31m-[0m [0m[1m[0mguid[0m[0m                    = "3a5e31eb-fccf-494b-ba17-b9c6273baaea" [90m->[0m [0m[90mnull[0m[0m
+      [31m-[0m [0m[1m[0mguid[0m[0m                    = "8afa607e-3a02-4c2b-a6b0-d4fe74528823" [90m->[0m [0m[90mnull[0m[0m
       [31m-[0m [0m[1m[0mid[0m[0m                      = "/subscriptions/963f627f-12a9-41e2-aba0-2f1968e6c1bf/resourceGroups/tipcloudagnosticrg/providers/Microsoft.Network/virtualNetworks/tip-vnet" [90m->[0m [0m[90mnull[0m[0m
       [31m-[0m [0m[1m[0mlocation[0m[0m                = "eastus" [90m->[0m [0m[90mnull[0m[0m
       [31m-[0m [0m[1m[0mname[0m[0m                    = "tip-vnet" [90m->[0m [0m[90mnull[0m[0m
@@ -180,8 +180,8 @@ Terraform will perform the following actions:
       [31m-[0m [0m[1m[0mname[0m[0m                     = "demo-private-endpoint" [90m->[0m [0m[90mnull[0m[0m
       [31m-[0m [0m[1m[0mnetwork_interface[0m[0m        = [
           [31m-[0m [0m{
-              [31m-[0m [0mid   = "/subscriptions/963f627f-12a9-41e2-aba0-2f1968e6c1bf/resourceGroups/tipcloudagnosticrg/providers/Microsoft.Network/networkInterfaces/demo-private-endpoint.nic.a771a925-0e52-4d19-b813-c36df272eafa"
-              [31m-[0m [0mname = "demo-private-endpoint.nic.a771a925-0e52-4d19-b813-c36df272eafa"
+              [31m-[0m [0mid   = "/subscriptions/963f627f-12a9-41e2-aba0-2f1968e6c1bf/resourceGroups/tipcloudagnosticrg/providers/Microsoft.Network/networkInterfaces/demo-private-endpoint.nic.aec69f29-152d-4de5-ba08-754f1ef5c063"
+              [31m-[0m [0mname = "demo-private-endpoint.nic.aec69f29-152d-4de5-ba08-754f1ef5c063"
             },
         ] [90m->[0m [0m[90mnull[0m[0m
       [31m-[0m [0m[1m[0mprivate_dns_zone_configs[0m[0m = [] [90m->[0m [0m[90mnull[0m[0m
@@ -309,27 +309,27 @@ Terraform will perform the following actions:
   [31m-[0m [0m[1m[0mstorage_container_name[0m[0m     = "demo" [90m->[0m [0m[90mnull[0m[0m
   [31m-[0m [0m[1m[0mstorage_primary_access_key[0m[0m = (sensitive value)
 [0m[1mmodule.privateendpoint.azurerm_private_dns_a_record.tip_dns_a: Destroying... [id=/subscriptions/963f627f-12a9-41e2-aba0-2f1968e6c1bf/resourceGroups/tipcloudagnosticrg/providers/Microsoft.Network/privateDnsZones/privatelink.blob.core.windows.net/A/demostorage9553][0m[0m
+[0m[1mazurerm_subnet.tip_public_subnet: Destroying... [id=/subscriptions/963f627f-12a9-41e2-aba0-2f1968e6c1bf/resourceGroups/tipcloudagnosticrg/providers/Microsoft.Network/virtualNetworks/tip-vnet/subnets/tip_public_subnet][0m[0m
 [0m[1mazurerm_private_dns_zone_virtual_network_link.tip_network_link: Destroying... [id=/subscriptions/963f627f-12a9-41e2-aba0-2f1968e6c1bf/resourceGroups/tipcloudagnosticrg/providers/Microsoft.Network/privateDnsZones/privatelink.blob.core.windows.net/virtualNetworkLinks/vnet_link][0m[0m
 [0m[1mazurerm_storage_blob.tip_blob_store: Destroying... [id=https://demotipstorage9553.blob.core.windows.net/demo/index.html][0m[0m
-[0m[1mazurerm_subnet.tip_public_subnet: Destroying... [id=/subscriptions/963f627f-12a9-41e2-aba0-2f1968e6c1bf/resourceGroups/tipcloudagnosticrg/providers/Microsoft.Network/virtualNetworks/tip-vnet/subnets/tip_public_subnet][0m[0m
-[0m[1mazurerm_storage_blob.tip_blob_store: Destruction complete after 0s[0m
+[0m[1mazurerm_storage_blob.tip_blob_store: Destruction complete after 1s[0m
 [0m[1mazurerm_storage_container.container: Destroying... [id=https://demotipstorage9553.blob.core.windows.net/demo][0m[0m
 [0m[1mazurerm_storage_container.container: Destruction complete after 0s[0m
-[0m[1mmodule.privateendpoint.azurerm_private_dns_a_record.tip_dns_a: Destruction complete after 0s[0m
+[0m[1mmodule.privateendpoint.azurerm_private_dns_a_record.tip_dns_a: Destruction complete after 1s[0m
 [0m[1mmodule.privateendpoint.azurerm_private_endpoint.tip_private_endpoint: Destroying... [id=/subscriptions/963f627f-12a9-41e2-aba0-2f1968e6c1bf/resourceGroups/tipcloudagnosticrg/providers/Microsoft.Network/privateEndpoints/demo-private-endpoint][0m[0m
 [0m[1mazurerm_private_dns_zone_virtual_network_link.tip_network_link: Still destroying... [id=/subscriptions/963f627f-12a9-41e2-aba0-...dows.net/virtualNetworkLinks/vnet_link, 10s elapsed][0m[0m
 [0m[1mazurerm_subnet.tip_public_subnet: Still destroying... [id=/subscriptions/963f627f-12a9-41e2-aba0-...rks/tip-vnet/subnets/tip_public_subnet, 10s elapsed][0m[0m
-[0m[1mazurerm_subnet.tip_public_subnet: Destruction complete after 10s[0m
+[0m[1mazurerm_subnet.tip_public_subnet: Destruction complete after 11s[0m
 [0m[1mmodule.privateendpoint.azurerm_private_endpoint.tip_private_endpoint: Still destroying... [id=/subscriptions/963f627f-12a9-41e2-aba0-...privateEndpoints/demo-private-endpoint, 10s elapsed][0m[0m
 [0m[1mazurerm_private_dns_zone_virtual_network_link.tip_network_link: Still destroying... [id=/subscriptions/963f627f-12a9-41e2-aba0-...dows.net/virtualNetworkLinks/vnet_link, 20s elapsed][0m[0m
 [0m[1mmodule.privateendpoint.azurerm_private_endpoint.tip_private_endpoint: Still destroying... [id=/subscriptions/963f627f-12a9-41e2-aba0-...privateEndpoints/demo-private-endpoint, 20s elapsed][0m[0m
-[0m[1mmodule.privateendpoint.azurerm_private_endpoint.tip_private_endpoint: Destruction complete after 21s[0m
+[0m[1mmodule.privateendpoint.azurerm_private_endpoint.tip_private_endpoint: Destruction complete after 20s[0m
 [0m[1mazurerm_subnet.tip_endpoint_subnet: Destroying... [id=/subscriptions/963f627f-12a9-41e2-aba0-2f1968e6c1bf/resourceGroups/tipcloudagnosticrg/providers/Microsoft.Network/virtualNetworks/tip-vnet/subnets/tip_endpoint_subnet][0m[0m
 [0m[1mmodule.storage_account.azurerm_storage_account.tipcloudagstorage: Destroying... [id=/subscriptions/963f627f-12a9-41e2-aba0-2f1968e6c1bf/resourceGroups/tipcloudagnosticrg/providers/Microsoft.Storage/storageAccounts/demotipstorage9553][0m[0m
 [0m[1mmodule.storage_account.azurerm_storage_account.tipcloudagstorage: Destruction complete after 2s[0m
 [0m[1mazurerm_private_dns_zone_virtual_network_link.tip_network_link: Still destroying... [id=/subscriptions/963f627f-12a9-41e2-aba0-...dows.net/virtualNetworkLinks/vnet_link, 30s elapsed][0m[0m
 [0m[1mazurerm_subnet.tip_endpoint_subnet: Still destroying... [id=/subscriptions/963f627f-12a9-41e2-aba0-...s/tip-vnet/subnets/tip_endpoint_subnet, 10s elapsed][0m[0m
-[0m[1mazurerm_subnet.tip_endpoint_subnet: Destruction complete after 10s[0m
+[0m[1mazurerm_subnet.tip_endpoint_subnet: Destruction complete after 11s[0m
 [0m[1mazurerm_private_dns_zone_virtual_network_link.tip_network_link: Still destroying... [id=/subscriptions/963f627f-12a9-41e2-aba0-...dows.net/virtualNetworkLinks/vnet_link, 40s elapsed][0m[0m
 [0m[1mazurerm_private_dns_zone_virtual_network_link.tip_network_link: Still destroying... [id=/subscriptions/963f627f-12a9-41e2-aba0-...dows.net/virtualNetworkLinks/vnet_link, 50s elapsed][0m[0m
 [0m[1mazurerm_private_dns_zone_virtual_network_link.tip_network_link: Still destroying... [id=/subscriptions/963f627f-12a9-41e2-aba0-...dows.net/virtualNetworkLinks/vnet_link, 1m0s elapsed][0m[0m
@@ -342,12 +342,12 @@ Terraform will perform the following actions:
 [0m[1mazurerm_private_dns_zone_virtual_network_link.tip_network_link: Still destroying... [id=/subscriptions/963f627f-12a9-41e2-aba0-...dows.net/virtualNetworkLinks/vnet_link, 2m10s elapsed][0m[0m
 [0m[1mazurerm_private_dns_zone_virtual_network_link.tip_network_link: Still destroying... [id=/subscriptions/963f627f-12a9-41e2-aba0-...dows.net/virtualNetworkLinks/vnet_link, 2m20s elapsed][0m[0m
 [0m[1mazurerm_private_dns_zone_virtual_network_link.tip_network_link: Still destroying... [id=/subscriptions/963f627f-12a9-41e2-aba0-...dows.net/virtualNetworkLinks/vnet_link, 2m30s elapsed][0m[0m
-[0m[1mazurerm_private_dns_zone_virtual_network_link.tip_network_link: Destruction complete after 2m31s[0m
-[0m[1mazurerm_private_dns_zone.tipcloudagdnszone: Destroying... [id=/subscriptions/963f627f-12a9-41e2-aba0-2f1968e6c1bf/resourceGroups/tipcloudagnosticrg/providers/Microsoft.Network/privateDnsZones/privatelink.blob.core.windows.net][0m[0m
+[0m[1mazurerm_private_dns_zone_virtual_network_link.tip_network_link: Destruction complete after 2m32s[0m
 [0m[1mazurerm_virtual_network.tip_vnet: Destroying... [id=/subscriptions/963f627f-12a9-41e2-aba0-2f1968e6c1bf/resourceGroups/tipcloudagnosticrg/providers/Microsoft.Network/virtualNetworks/tip-vnet][0m[0m
-[0m[1mazurerm_private_dns_zone.tipcloudagdnszone: Still destroying... [id=/subscriptions/963f627f-12a9-41e2-aba0-...ones/privatelink.blob.core.windows.net, 10s elapsed][0m[0m
+[0m[1mazurerm_private_dns_zone.tipcloudagdnszone: Destroying... [id=/subscriptions/963f627f-12a9-41e2-aba0-2f1968e6c1bf/resourceGroups/tipcloudagnosticrg/providers/Microsoft.Network/privateDnsZones/privatelink.blob.core.windows.net][0m[0m
 [0m[1mazurerm_virtual_network.tip_vnet: Still destroying... [id=/subscriptions/963f627f-12a9-41e2-aba0-...osoft.Network/virtualNetworks/tip-vnet, 10s elapsed][0m[0m
-[0m[1mazurerm_virtual_network.tip_vnet: Destruction complete after 10s[0m
+[0m[1mazurerm_private_dns_zone.tipcloudagdnszone: Still destroying... [id=/subscriptions/963f627f-12a9-41e2-aba0-...ones/privatelink.blob.core.windows.net, 10s elapsed][0m[0m
+[0m[1mazurerm_virtual_network.tip_vnet: Destruction complete after 11s[0m
 [0m[1mazurerm_private_dns_zone.tipcloudagdnszone: Still destroying... [id=/subscriptions/963f627f-12a9-41e2-aba0-...ones/privatelink.blob.core.windows.net, 20s elapsed][0m[0m
 [0m[1mazurerm_private_dns_zone.tipcloudagdnszone: Still destroying... [id=/subscriptions/963f627f-12a9-41e2-aba0-...ones/privatelink.blob.core.windows.net, 30s elapsed][0m[0m
 [0m[1mazurerm_private_dns_zone.tipcloudagdnszone: Destruction complete after 31s[0m
